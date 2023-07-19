@@ -6,13 +6,13 @@ from good_mode import BlackJack
 
 logger = logging.getLogger("Loop")
 logger.setLevel(logging.INFO)
-game = logging.FileHandler(filename="Game stats.log")
-logger.addHandler(game)
+# game = logging.FileHandler(filename="Game stats.log")
+# logger.addHandler(game)
 
 logging.basicConfig(filename="Probability.log", level=logging.INFO, format="%(message)s")
 
 class Blackjacksim(BlackJack):
-    CARDS = ["2","3","4","5","6","7","8","9","A","J","Q","K"]
+    CARDS = ["2","3","4","5","6","7","8","9","10","A","J","Q","K"]
 
     cards_per_deck = CARDS * 4
     GAME_DECK = cards_per_deck * 5
