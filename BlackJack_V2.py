@@ -2,7 +2,7 @@ import random
 import logging
 import argparse
 import time
-from good_mode import BlackJack
+from BlackJack_V1 import BlackJack
 
 logger = logging.getLogger("Loop")
 logger.setLevel(logging.INFO)

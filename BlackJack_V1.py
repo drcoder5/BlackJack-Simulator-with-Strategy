@@ -2,7 +2,7 @@
 BlackJack Player Guide
 '''
 import argparse
-from strategy import strategy, strategy2
+from CheatSheet import strategy, strategy2
 import itertools
 import time
 
